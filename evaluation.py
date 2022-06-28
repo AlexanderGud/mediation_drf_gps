@@ -91,7 +91,7 @@ class mediation_evaluation:
         # and no errors for post-treatment variables.
         n_ = int(1e6)
         e_ = self.gen_e(n_, self.p)
-        e_no = np.zeros((n_, e_.shape[1]-self.p))                                                    
+        e_no = np.zeros((n_, e_.shape[1] - self.p))
         X_ = self.gen_X(e_)
         H_ = self.gen_H(e_, X_)
         T_ = self.gen_T(e_, X_, H_)
