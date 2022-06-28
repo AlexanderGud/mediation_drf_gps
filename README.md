@@ -26,10 +26,10 @@ The data generating models corresponding to Model 4/5/6/7 in the thesis.
 Same data generating models as Model 1 and 3, respectfully, but with a tunable dimension of X, used for the benchmark table 
 
 ### model_conf_TM.py / model_conf_TY.py / model_conf_MY.py / model_conf_postT.py
-The data generating models corresponding to Model 3 in the thesis, with a hidden confounder affecting variables T-M, T-Y, M-Y and posttreatment M-Y, respectfully. The standard deviation of the hidden confounders, h, can be tuned to obtain the results in table 4.2.
+The data generating models corresponding to Model 3 in the thesis, with a hidden confounder affecting variables T-M, T-Y, M-Y and posttreatment M-Y, respectfully. The standard deviation of the hidden confounders, h, can be tuned to obtain the results in table 4.3.
 
 ### model*_Huber.R
 Corresponding models run with the estimator proposed by Huber et al. to produce results present in tables 4.1 and 4.2 in the thesis.
 
 ### evaluation_Huber.R
-The estimator proposed by Huber et al. set up in a similar framework as the evaluation.py to produce results present in table 4.1 in the thesis.
+The estimator proposed by Huber et al. set up in a similar framework as the evaluation.py to produce results present in tables 4.1 and 4.2 in the thesis.
